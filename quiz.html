@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Font Awesone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <title>Teach Cat</title>
+</head>
+<body>
+        <header>
+            <div class="navbar navquiz">
+                <button id="leave"><i class="fa-solid fa-arrow-left-long"></i></button>
+                <div id="progress-bar-container">
+                    <div id="progress-bar"></div>
+                </div>
+                <div class="item" id="portion">
+                    <i class="fa-solid fa-heart"></i>
+                    <h3></h3>
+                </div>
+            </div>
+        </header>
+
+    <main class="content-quiz">
+        <section class="quiz">
+            <h3 class="ask">Qual a tradução correta?</h3>
+
+            <div class="questions">
+                <h3 class="word"></h3>
+
+                <div class="options">
+                    <button id="optionsA" class="option"></button>
+                    <button id="optionsB" class="option"></button>
+                    <button id="optionsC" class="option"></button>
+                    <button id="optionsD" class="option"></button>
+                </div>
+            </div>
+
+            
+        </section>
+
+            <div class="recopenses-content">
+
+                <h3>Parabens, você recebeu uma recopensa! </h3>
+                <div class="recopenses">
+                    <div class="recopense crystails" id="crystails">
+                        <i class="fa-brands fa-ethereum"></i>
+                        <h2></h2>
+                    </div>
+                    <div class="recopense gold" id="gold">
+                        <i class="fa-solid fa-paw"></i>
+                        <h2></h2>
+                    </div>
+                </div>
+
+            <button class="get"><a href="index.html">Receber</a></button>
+
+
+        </div>
+
+        
+    </main>
+
+    <footer id="footer-quiz">
+        <nav class="correct">
+            <h3>Parabens, você acertou!</h3>
+            <button class="next">Próxima</button>
+        </nav>
+
+        <nav class="error">
+            <h3>Você errou!</h3>
+            <h5></h5>
+            <button class="next">ok!</button>
+        </nav>
+
+        <nav class="loserPortions">
+            <div class="loser">
+                <h2>Suas Vidas acabaram</h2>
+
+             <div class="item" id="gold">
+                <i class="fa-solid fa-paw"></i>
+                <h3></h3>
+             </div>
+            </div>
+
+            <div class="recarregar">
+                <h3>Recarregar</h3>
+                <button class="buy">
+                    <i class="fa-solid fa-heart" id="heart"></i>
+                    <i class="fa-solid fa-paw" id="goldPrice">300</i>
+                </button>
+
+                <a href="index.html">Voltar</a>
+            </div>
+            
+        </nav>
+
+    </footer>
+    
+     <script src="script.js"></script>  
+     <script src="itens.js"></script>
+</body>
+</html>

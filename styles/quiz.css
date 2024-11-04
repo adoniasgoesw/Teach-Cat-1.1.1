@@ -1,0 +1,260 @@
+@media screen and (max-width: 540px) {
+    #quiz-content {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+    }
+
+    .question {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    #leave {
+        color: black;
+    }
+
+    #progress-bar-container {
+        width: 50%; /* largura total da barra */
+        background-color: #e0e0e0; /* cor de fundo da barra */
+        border-radius: 8px; /* cantos arredondados */
+        height: 10px; /* altura da barra */
+        overflow: hidden;
+    }
+    
+    #progress-bar {
+        width: 0%; /* 30% completo */
+        height: 100%;
+        background: linear-gradient(to right, #b19cd9, #4b0082); /* gradiente de roxo claro a roxo escuro */
+        border-radius: 8px 0 0 8px; /* arredondar o canto esquerdo */
+        transition: width 0.5s ease; /* Transição suave de 0.5 segundos */
+    }
+
+    #leave {
+        background-color: #f0eaea;
+        font-size: 1rem;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid #afafaf;
+        color: #4b0082;
+    }
+
+    .content-quiz .quiz{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 20px;
+        gap: 30px;
+        position: fixed;
+
+       
+    }
+
+    .content-quiz .quiz .ask {
+        font-size: 2rem;
+    }
+
+    .content-quiz .quiz .questions{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 1.2rem;
+        gap: 15px;
+    }
+
+    .content-quiz .quiz .options {
+        display: flex;
+        gap: 10px;
+    }
+
+    .option  {
+        padding: 10px;
+        border-radius: 9px;
+        font-size: 1rem;
+        border: 2px solid #afafaf;
+
+    }
+
+
+    #footer-quiz .correct, #footer-quiz .error {
+        display: none;
+    }
+    #footer-quiz .correct h3 {
+     color: #4b0082;
+    }
+
+
+
+    .next {
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    #footer-quiz .correct .next {
+        background-color: #4b0082;
+
+    }
+
+    #footer-quiz .error .next {
+        background-color: red;
+        
+    }
+
+    #footer-quiz .error h3 {
+        color: red;
+    }
+
+    
+    .loserPortions {
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        display: none;
+    }
+
+    .loserPortions h2 {
+        color: #b19cd9;
+        font-size: 1rem ;
+        
+    }
+
+    .loser {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .recarregar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .recarregar h3 {
+        color: gold;
+    }
+
+    .recarregar a {
+        color: #b19cd9;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .buy {
+        width: 50%;
+        height: 150px;
+        border-radius: 10px;
+        border: 2px solid gold;
+        background-color: rgba(255, 255, 0, 0.241);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .buy #heart {
+        color: red;
+        font-size: 4rem;
+        
+    }
+
+    .buy #goldPrice {
+        color: gold;
+        display: flex;
+        gap: 5px;
+    }
+
+
+    .recopenses-content {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        color: #b19cd9;
+        position: fixed;
+        display: none;
+        background-color: #fff;
+    }
+
+    .recopenses-content h3 {
+        font-size: 1.4rem;
+
+    }
+
+    .recopenses {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .recopense {
+        border-radius: 10px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .recopenses .gold {
+        border: 2px solid gold;
+    }
+
+    .recopenses .crystails {
+        border: 2px solid cornflowerblue;
+    }
+
+    .get {
+        width: 30%;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: gold;
+        border: none;
+        border-radius: 7px;
+        
+        border-bottom: 2px solid goldenrod;
+        }
+
+    .get a {
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    
+
+}
